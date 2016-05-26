@@ -13,6 +13,7 @@ TagManager:
   - sleet
   - snow
   - hail
+  - ground
   layers:
   - Default
   - TransparentFX
