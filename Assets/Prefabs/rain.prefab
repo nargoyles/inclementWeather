@@ -69,6 +69,7 @@ MonoBehaviour:
   - {fileID: 176402, guid: eee93bb015c494d4ca8685472da063fb, type: 2}
   - {fileID: 108242, guid: 7eb8045db2309407a8ac09f1db54fe3b, type: 2}
   - {fileID: 171072, guid: 26918090ee02243c897494a68fb8c749, type: 2}
+  camPos: {fileID: 0}
   cam: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
 --- !u!212 &21207086
 SpriteRenderer:

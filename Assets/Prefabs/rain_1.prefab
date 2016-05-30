@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21270612}
   - 50: {fileID: 5033608}
   - 61: {fileID: 6111914}
-  - 114: {fileID: 11408696}
+  - 114: {fileID: 11435668}
   m_Layer: 0
   m_Name: rain_1
   m_TagString: rain
@@ -63,7 +63,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.12, y: 0.12}
---- !u!114 &11408696
+--- !u!114 &11435668
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -71,12 +71,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 171872}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d45cb7287754ea7bbee0c3f0d655c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b8e9e20122e0471080812791dd0999b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rain: []
-  camPos: {fileID: 0}
-  cam: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
 --- !u!212 &21270612
 SpriteRenderer:
   m_ObjectHideFlags: 1
