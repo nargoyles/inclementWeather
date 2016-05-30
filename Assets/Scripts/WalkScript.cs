@@ -8,7 +8,7 @@ public class WalkScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector3.right * speed * Time.deltaTime);
+		//transform.Translate(Vector3.right * speed * Time.deltaTime);
 		anim.SetFloat ("speed", 1);
 
 
