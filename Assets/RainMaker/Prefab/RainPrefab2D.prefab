@@ -116,7 +116,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.33, y: 0.43976226, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -167,7 +167,7 @@ MonoBehaviour:
   RainSoundLight: {fileID: 8300000, guid: c980eda1ec9b9ff4b930005976b00f41, type: 3}
   RainSoundMedium: {fileID: 8300000, guid: 3359e9d10af08ca46ae396298dbd1ed9, type: 3}
   RainSoundHeavy: {fileID: 8300000, guid: db1471092e49b7445bfbd374a17ea61a, type: 3}
-  RainIntensity: 0
+  RainIntensity: 0.1
   RainFallParticleSystem: {fileID: 19804216}
   RainExplosionParticleSystem: {fileID: 19837776}
   RainMistParticleSystem: {fileID: 19862954}
@@ -180,7 +180,9 @@ MonoBehaviour:
   EnableWind: 1
   RainHeightMultiplier: 0.15
   RainWidthMultiplier: 1.5
-  CollisionMask: {}
+  CollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
   CollisionLifeTimeRain: 0.02
   RainMistCollisionMultiplier: 0.75
 --- !u!182 &18238810

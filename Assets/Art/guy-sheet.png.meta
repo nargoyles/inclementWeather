@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ecde939b8611c4285adab21f244e676d
-timeCreated: 1464663910
+timeCreated: 1464678422
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -61,91 +61,137 @@ TextureImporter:
     - name: guy-sheet_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 24
-        height: 128
+        x: 7
+        y: 8
+        width: 42
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -21, y: 113.5}
+        - {x: -21, y: -113.5}
+        - {x: 21, y: -113.5}
+        - {x: 21, y: 113.5}
     - name: guy-sheet_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 4
-        width: 24
-        height: 128
+        x: 67
+        y: 8
+        width: 39
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -19.5, y: 113.5}
+        - {x: -19.5, y: -111.5}
+        - {x: -14.5, y: -113.5}
+        - {x: 19.5, y: -113.5}
+        - {x: 19.5, y: 113.5}
     - name: guy-sheet_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 4
-        width: 24
-        height: 128
+        x: 124
+        y: 8
+        width: 39
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -19.5, y: 113.5}
+        - {x: -19.5, y: -103.5}
+        - {x: -17.5, y: -113.5}
+        - {x: 7.5, y: -113.5}
+        - {x: 19.5, y: -97.5}
+        - {x: 19.5, y: 113.5}
     - name: guy-sheet_3
       rect:
         serializedVersion: 2
-        x: 100
-        y: 4
-        width: 28
-        height: 128
+        x: 181
+        y: 8
+        width: 46
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 18, y: 113.5}
+        - {x: -20, y: 113.5}
+        - {x: -23, y: 101.5}
+        - {x: -23, y: -113.5}
+        - {x: 23, y: -113.5}
+        - {x: 23, y: 82.5}
+        - {x: 21, y: 101.5}
     - name: guy-sheet_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 4
-        width: 24
-        height: 128
+        x: 235
+        y: 8
+        width: 42
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -21, y: 113.5}
+        - {x: -21, y: -113.5}
+        - {x: 21, y: -113.5}
+        - {x: 21, y: 113.5}
     - name: guy-sheet_5
       rect:
         serializedVersion: 2
-        x: 164
-        y: 4
-        width: 24
-        height: 128
+        x: 292
+        y: 8
+        width: 42
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -21, y: 113.5}
+        - {x: -21, y: -113.5}
+        - {x: 21, y: -113.5}
+        - {x: 21, y: 113.5}
     - name: guy-sheet_6
       rect:
         serializedVersion: 2
-        x: 196
-        y: 4
-        width: 24
-        height: 128
+        x: 352
+        y: 8
+        width: 39
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -16.5, y: 113.5}
+        - {x: -19.5, y: 112.5}
+        - {x: -19.5, y: -59.5}
+        - {x: -10.5, y: -113.5}
+        - {x: 7.5, y: -113.5}
+        - {x: 15.5, y: -86.5}
+        - {x: 19.5, y: 37.5}
+        - {x: 19.5, y: 113.5}
     - name: guy-sheet_7
       rect:
         serializedVersion: 2
-        x: 228
-        y: 4
-        width: 24
-        height: 128
+        x: 406
+        y: 8
+        width: 42
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 21, y: -110.5}
+        - {x: 21, y: 113.5}
+        - {x: -21, y: 113.5}
+        - {x: -21, y: -113.5}
+        - {x: -5, y: -113.5}
+        - {x: -4, y: -105.5}
+        - {x: 5, y: -113.5}
+        - {x: 20, y: -113.5}
     outline: []
   spritePackingTag: 
   userData: 
