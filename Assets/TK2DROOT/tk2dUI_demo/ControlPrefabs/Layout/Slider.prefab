@@ -116,6 +116,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400010}
   m_RootOrder: 0
@@ -126,8 +127,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .00698053837, y: 0, z: -.0199999996}
+  m_LocalPosition: {x: 0.0069805384, y: 0, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400006}
   m_RootOrder: 1
@@ -138,8 +140,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0354380608, y: 0, z: 0}
+  m_LocalPosition: {x: 0.03543806, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400010}
   m_Father: {fileID: 400006}
@@ -151,8 +154,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0301868916, y: -.0656250119, z: 0}
+  m_LocalPosition: {x: 0.030186892, y: -0.06562501, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400004}
   - {fileID: 400002}
@@ -165,8 +169,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.01672721, y: -.308107167, z: 0}
+  m_LocalPosition: {x: -1.0167272, y: -0.30810717, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400006}
   m_Father: {fileID: 0}
@@ -178,8 +183,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -.100000001}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400000}
   m_Father: {fileID: 400004}
@@ -202,8 +208,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -226,8 +234,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -250,8 +260,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -286,7 +298,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -302,8 +314,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .110412538, y: .110412538, z: .0199999996}
-  m_Center: {x: -.000947147608, y: .000947147608, z: .00999999978}
+  m_Size: {x: 0.11041254, y: 0.11041254, z: 0.02}
+  m_Center: {x: -0.0009471476, y: 0.0009471476, z: 0.01}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,8 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a677072d2a0bc494abd400e1dd1a0918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bMin: {x: 0, y: -.131250024, z: 0}
-  bMax: {x: .830186963, y: 0, z: 0}
+  bMin: {x: 0, y: -0.13125002, z: 0}
+  bMax: {x: 0.83018696, y: 0, z: 0}
   layoutItems:
   - sprite: {fileID: 11400006}
     UIMask: {fileID: 0}
@@ -331,7 +343,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 0
-    oldPos: {x: -.986540318, y: -.373732179, z: 0}
+    oldPos: {x: -0.9865403, y: -0.37373218, z: 0}
   - sprite: {fileID: 0}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -345,7 +357,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 1
-    oldPos: {x: -.951102257, y: -.373732179, z: 0}
+    oldPos: {x: -0.95110226, y: -0.37373218, z: 0}
   - sprite: {fileID: 11400002}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -359,7 +371,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 1
-    oldPos: {x: -.979559779, y: -.373732179, z: -.0199999996}
+    oldPos: {x: -0.9795598, y: -0.37373218, z: -0.02}
   - sprite: {fileID: 0}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -373,7 +385,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 2
-    oldPos: {x: -.951102257, y: -.373732179, z: -.100000001}
+    oldPos: {x: -0.95110226, y: -0.37373218, z: -0.1}
   autoResizeCollider: 0
 --- !u!114 &11400002
 MonoBehaviour:
@@ -404,8 +416,8 @@ MonoBehaviour:
   legacyMode: 0
   borderTop: 0
   borderBottom: 0
-  borderLeft: .200000003
-  borderRight: .200000003
+  borderLeft: 0.2
+  borderRight: 0.2
   _createBoxCollider: 0
 --- !u!114 &11400004
 MonoBehaviour:
@@ -459,8 +471,8 @@ MonoBehaviour:
   legacyMode: 0
   borderTop: 0
   borderBottom: 0
-  borderLeft: .352941185
-  borderRight: .352941185
+  borderLeft: 0.3529412
+  borderRight: 0.3529412
   _createBoxCollider: 0
 --- !u!114 &11400008
 MonoBehaviour:
@@ -474,8 +486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiItem: {fileID: 11400016}
-  onDownScale: {x: .949999988, y: .949999988, z: .949999988}
-  tweenDuration: .0299999993
+  onDownScale: {x: 0.95, y: 0.95, z: 0.95}
+  tweenDuration: 0.03
   canButtonBeHeldDown: 1
   useOnReleaseInsteadOfOnUp: 1
 --- !u!114 &11400010
@@ -528,10 +540,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barUIItem: {fileID: 11400012}
-  scrollBarLength: .778748989
+  scrollBarLength: 0.778749
   thumbBtn: {fileID: 11400016}
   thumbTransform: {fileID: 400010}
-  thumbLength: .0694206357
+  thumbLength: 0.069420636
   upButton: {fileID: 0}
   downButton: {fileID: 0}
   buttonUpDownScrollDistance: 1

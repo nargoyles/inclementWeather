@@ -8,7 +8,7 @@ public class CameraScript : MonoBehaviour {
 	void Update ()
 	{
 
-		transform.position = new Vector3 (character.position.x + 6, 3, -10);
+		transform.position = new Vector3 (character.position.x + 6, 0, -10);
 	
 	}
 }

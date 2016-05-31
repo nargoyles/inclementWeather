@@ -440,34 +440,6 @@ Prefab:
       propertyPath: character
       value: 
       objectReference: {fileID: 318479781}
-    - target: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: orthographic size
-      value: 4.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 471928, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 471928, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_NormalizedViewPortRect.width
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_NormalizedViewPortRect.height
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 471928, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
-      propertyPath: m_HDR
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36e735a8a4790477283f1f1586dadec8, type: 2}
   m_IsPrefabParent: 0
@@ -737,6 +709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb67868d057d457fa7c5a4d6394591c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  pitchSpeed: 100
 --- !u!20 &1473469773 stripped
 Camera:
   m_PrefabParentObject: {fileID: 2079542, guid: 36e735a8a4790477283f1f1586dadec8,

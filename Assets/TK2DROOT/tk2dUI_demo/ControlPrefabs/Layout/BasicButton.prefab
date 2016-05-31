@@ -63,8 +63,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .381249934, y: -.125, z: 0}
+  m_LocalPosition: {x: 0.38124993, y: -0.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400004}
   m_Father: {fileID: 400002}
@@ -76,8 +77,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.234165803, y: .132523566, z: 0}
+  m_LocalPosition: {x: -0.2341658, y: 0.13252357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400000}
   m_Father: {fileID: 0}
@@ -89,8 +91,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.96046448e-08, y: -.00157797337, z: -.100000001}
+  m_LocalPosition: {x: 0.000000059604645, y: -0.0015779734, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 0
@@ -112,8 +115,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -136,8 +141,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -166,8 +173,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .736025572, y: .216171503, z: .0199999996}
-  m_Center: {x: .37977922, y: -.122793794, z: .00999999978}
+  m_Size: {x: 0.7360256, y: 0.2161715, z: 0.02}
+  m_Center: {x: 0.37977922, y: -0.12279379, z: 0.01}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,14 +198,14 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
-  _dimensions: {x: 243.999969, y: 80}
+  _dimensions: {x: 243.99997, y: 80}
   _anchor: 4
   _borderOnly: 0
   legacyMode: 0
-  borderTop: .454545468
-  borderBottom: .454545468
-  borderLeft: .454545468
-  borderRight: .454545468
+  borderTop: 0.45454547
+  borderBottom: 0.45454547
+  borderLeft: 0.45454547
+  borderRight: 0.45454547
   _createBoxCollider: 0
 --- !u!114 &11400002
 MonoBehaviour:
@@ -212,8 +219,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiItem: {fileID: 11400004}
-  onDownScale: {x: .949999988, y: .949999988, z: .949999988}
-  tweenDuration: .0299999993
+  onDownScale: {x: 0.95, y: 0.95, z: 0.95}
+  tweenDuration: 0.03
   canButtonBeHeldDown: 1
   useOnReleaseInsteadOfOnUp: 0
 --- !u!114 &11400004
@@ -308,8 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a677072d2a0bc494abd400e1dd1a0918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bMin: {x: 0, y: -.25, z: 0}
-  bMax: {x: .762500048, y: 0, z: 0}
+  bMin: {x: 0, y: -0.25, z: 0}
+  bMax: {x: 0.76250005, y: 0, z: 0}
   layoutItems:
   - sprite: {fileID: 11400000}
     UIMask: {fileID: 0}
@@ -324,7 +331,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 0
-    oldPos: {x: 0, y: .247109652, z: 0}
+    oldPos: {x: 0, y: 0.24710965, z: 0}
   - sprite: {fileID: 0}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -338,7 +345,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 1
-    oldPos: {x: 0, y: .245531678, z: -.100000001}
+    oldPos: {x: 0, y: 0.24553168, z: -0.1}
   autoResizeCollider: 1
 --- !u!1001 &100100000
 Prefab:

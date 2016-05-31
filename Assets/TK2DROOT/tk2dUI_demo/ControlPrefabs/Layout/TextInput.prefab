@@ -133,6 +133,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400004}
   m_RootOrder: 1
@@ -145,6 +146,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400004}
   m_RootOrder: 0
@@ -155,8 +157,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.08217371, y: .686445057, z: 0}
+  m_LocalPosition: {x: -1.0821737, y: 0.68644506, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400000}
@@ -170,8 +173,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .00671981275, z: -.00999999978}
+  m_LocalPosition: {x: 0, y: 0.0067198128, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 2
@@ -182,8 +186,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .00671993196, z: -.00999999978}
+  m_LocalPosition: {x: 0, y: 0.006719932, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
@@ -194,8 +199,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .00671993196, z: -.00999999978}
+  m_LocalPosition: {x: 0, y: 0.006719932, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 1
@@ -206,8 +212,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .031504035, y: -.0909840465, z: 0}
+  m_LocalPosition: {x: 0.031504035, y: -0.09098405, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400008}
   - {fileID: 400010}
@@ -232,8 +239,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -256,8 +265,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -280,8 +291,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -304,8 +317,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -328,8 +343,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -379,8 +396,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.63493645, y: .159374997, z: .0199999996}
-  m_Center: {x: .817468226, y: -.0796874985, z: .00999999978}
+  m_Size: {x: 1.6349365, y: 0.159375, z: 0.02}
+  m_Center: {x: 0.8174682, y: -0.0796875, z: 0.01}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -392,8 +409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a677072d2a0bc494abd400e1dd1a0918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bMin: {x: 0, y: -.159375012, z: 0}
-  bMax: {x: 1.63493645, y: 0, z: 0}
+  bMin: {x: 0, y: -0.15937501, z: 0}
+  bMax: {x: 1.6349365, y: 0, z: 0}
   layoutItems:
   - sprite: {fileID: 11400004}
     UIMask: {fileID: 0}
@@ -408,7 +425,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 0
-    oldPos: {x: -1.08217371, y: .686445057, z: 0}
+    oldPos: {x: -1.0821737, y: 0.68644506, z: 0}
   - sprite: {fileID: 11400002}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -422,7 +439,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 0
-    oldPos: {x: -1.08217371, y: .686445057, z: 0}
+    oldPos: {x: -1.0821737, y: 0.68644506, z: 0}
   - sprite: {fileID: 0}
     UIMask: {fileID: 0}
     layout: {fileID: 0}
@@ -436,7 +453,7 @@ MonoBehaviour:
     sizeProportion: 1
     inLayoutList: 1
     childDepth: 0
-    oldPos: {x: -1.05066967, y: .595461011, z: 0}
+    oldPos: {x: -1.0506697, y: 0.595461, z: 0}
   autoResizeCollider: 1
 --- !u!114 &11400002
 MonoBehaviour:
@@ -461,14 +478,14 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
-  _dimensions: {x: 523.179688, y: 51}
+  _dimensions: {x: 523.1797, y: 51}
   _anchor: 6
   _borderOnly: 0
   legacyMode: 0
-  borderTop: .200000003
-  borderBottom: .200000003
-  borderLeft: .233333334
-  borderRight: .233333334
+  borderTop: 0.2
+  borderBottom: 0.2
+  borderLeft: 0.23333333
+  borderRight: 0.23333333
   _createBoxCollider: 0
 --- !u!114 &11400004
 MonoBehaviour:
@@ -493,14 +510,14 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
-  _dimensions: {x: 523.179688, y: 51}
+  _dimensions: {x: 523.1797, y: 51}
   _anchor: 6
   _borderOnly: 0
   legacyMode: 0
-  borderTop: .200000003
-  borderBottom: .200000003
-  borderLeft: .233333334
-  borderRight: .233333334
+  borderTop: 0.2
+  borderBottom: 0.2
+  borderLeft: 0.23333333
+  borderRight: 0.23333333
   _createBoxCollider: 0
 --- !u!114 &11400006
 MonoBehaviour:
@@ -560,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _font: {fileID: 11400000, guid: fb1b97eccf6db514999d1605baf017e5, type: 2}
   _text: 
-  _color: {r: .737254918, g: 1, b: 1, a: 1}
+  _color: {r: 0.7372549, g: 1, b: 1, a: 1}
   _color2: {r: 1, g: 1, b: 1, a: 1}
   _useGradient: 0
   _textureGradient: 0
@@ -604,12 +621,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _font: {fileID: 11400000, guid: fb1b97eccf6db514999d1605baf017e5, type: 2}
   _text: '|'
-  _color: {r: .737254918, g: 1, b: 1, a: 1}
+  _color: {r: 0.7372549, g: 1, b: 1, a: 1}
   _color2: {r: 1, g: 1, b: 1, a: 1}
   _useGradient: 0
   _textureGradient: 0
   _anchor: 3
-  _scale: {x: 1.20000005, y: 1.39999998, z: 1}
+  _scale: {x: 1.2, y: 1.4, z: 1}
   _kerning: 0
   _maxChars: 1
   _inlineStyling: 0
@@ -621,7 +638,7 @@ MonoBehaviour:
     version: 1
     font: {fileID: 11400000, guid: dc5e8cfc5fff846d7a573bb8f5960093, type: 2}
     text: '|'
-    color: {r: 1, g: 1, b: 1, a: .592156887}
+    color: {r: 1, g: 1, b: 1, a: 0.5921569}
     color2: {r: 1, g: 1, b: 1, a: 1}
     useGradient: 0
     textureGradient: 0
@@ -648,7 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _font: {fileID: 11400000, guid: fb1b97eccf6db514999d1605baf017e5, type: 2}
   _text: 
-  _color: {r: .737254918, g: 1, b: 1, a: .70588237}
+  _color: {r: 0.7372549, g: 1, b: 1, a: 0.7058824}
   _color2: {r: 1, g: 1, b: 1, a: 1}
   _useGradient: 0
   _textureGradient: 0
@@ -665,7 +682,7 @@ MonoBehaviour:
     version: 1
     font: {fileID: 11400000, guid: dc5e8cfc5fff846d7a573bb8f5960093, type: 2}
     text: USERNAME
-    color: {r: 1, g: 1, b: 1, a: .0980392173}
+    color: {r: 1, g: 1, b: 1, a: 0.09803922}
     color2: {r: 1, g: 1, b: 1, a: 1}
     useGradient: 0
     textureGradient: 0
