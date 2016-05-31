@@ -1,18 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class umbrellaScript : MonoBehaviour {
+public class UmbrellaScript : MonoBehaviour {
+	public float speed = 1.5f;
 
-	public float speed = 10.0F;
-	public float pitchSpeed = 100.0F;
-	
-	// Update is called once per frame
-	void Update () {
-		float translation = Input.GetAxis("Vertical") * speed;
-		float pitch = Input.GetAxis("Horizontal") * pitchSpeed;
-		translation *= Time.deltaTime;
-		pitch *= Time.deltaTime;
-		transform.Translate(0, translation, 0);
-		transform.Rotate(0, 0, pitch * -1);
+	void Update() {
+		if (Input.GetKey(KeyCode.LeftArrow)) {
+			Debug.Log ("Left");
+			transform.position += Vector3.left * speed * Time.deltaTime;
+		}
+		if (Input.GetKey(KeyCode.RightArrow)) {
+			transform.position += Vector3.right * speed * Time.deltaTime;
+		}
+		if (Input.GetKey(KeyCode.UpArrow)) {
+			transform.position += Vector3.up * speed * Time.deltaTime;
+		}
+		if (Input.GetKey(KeyCode.DownArrow)) {
+			transform.position += Vector3.down * speed * Time.deltaTime;
+		}
 	}
 }
