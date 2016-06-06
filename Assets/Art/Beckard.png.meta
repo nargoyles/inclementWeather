@@ -1,9 +1,37 @@
 fileFormatVersion: 2
-guid: ad65b2f31242843feaab0062e6674232
-timeCreated: 1465154712
+guid: bfbe9c8a673384170b766b70fd12b0cc
+timeCreated: 1465087654
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Beckard_head
+    21300002: Beckard_right_bicep
+    21300004: Beckard_torso
+    21300006: Beckard_right_fore
+    21300008: Beckard_left_bicep
+    21300010: Beckard_left_fore
+    21300012: Beckard_hips
+    21300014: Beckard_right_thigh
+    21300016: Beckard_left_thigh
+    21300018: Beckard_right_shin
+    21300020: Beckard_left_shin
+    21300022: Beckard_right_foot
+    21300024: Beckard_left_foot
+    21300026: Beckard_head
+    21300028: Beckard_right_bicep
+    21300030: Beckard_torso
+    21300032: Beckard_right_fore
+    21300034: Beckard_left_bicep
+    21300036: Beckard_left_fore
+    21300038: Beckard_hips
+    21300040: Beckard_left_hand
+    21300042: Beckard_right_thigh
+    21300044: Beckard_right_shin
+    21300046: Beckard_left_thigh
+    21300048: Beckard_left_shin
+    21300050: Beckard_right_hand
+    21300052: Beckard_right_foot
+    21300054: Beckard_left_foot
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +66,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +77,256 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Beckard_head
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 911
+        width: 148
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4684356, y: 0.10262922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.67153, y: 216.26636}
+        - {x: -58.32847, y: 216.26636}
+        - {x: -69.32847, y: 193.26636}
+        - {x: -69.32847, y: 44.266357}
+        - {x: -48.32847, y: 15.266357}
+        - {x: -37.32847, y: -24.733643}
+        - {x: 30.671532, y: -24.733643}
+        - {x: 32.67153, y: -6.7336426}
+        - {x: 51.67153, y: 12.266357}
+        - {x: 78.67153, y: 145.26636}
+    - name: Beckard_right_bicep
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 987
+        width: 114
+        height: 156
+      alignment: 9
+      pivot: {x: 0.8781037, y: 0.89143413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.10382, y: 16.93628}
+        - {x: -100.10382, y: -56.06372}
+        - {x: -100.10382, y: -139.06372}
+        - {x: -41.10382, y: -139.06372}
+        - {x: -31.10382, y: -133.06372}
+        - {x: 13.896179, y: -77.06372}
+        - {x: 13.896179, y: 16.93628}
+    - name: Beckard_torso
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 484
+        width: 148
+        height: 389
+      alignment: 9
+      pivot: {x: 0.54734737, y: 0.037650377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.99259, y: 50.354004}
+        - {x: 56.99259, y: 219.354}
+        - {x: 66.99259, y: 220.354}
+        - {x: 66.99259, y: 334.354}
+        - {x: 36.99259, y: 374.354}
+        - {x: -41.00741, y: 374.354}
+        - {x: -81.00741, y: 326.354}
+        - {x: -81.00741, y: 207.354}
+        - {x: -66.00741, y: 207.354}
+        - {x: -68.00741, y: -6.645996}
+        - {x: -56.00741, y: -13.645996}
+        - {x: -34.00741, y: -14.645996}
+        - {x: 61.99259, y: -14.645996}
+        - {x: 66.99259, y: 1.3540039}
+        - {x: 66.99259, y: 30.354004}
+    - name: Beckard_right_fore
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 805
+        width: 93
+        height: 152
+      alignment: 9
+      pivot: {x: 0.26825953, y: 0.80720884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.948135, y: 29.30426}
+        - {x: -24.948135, y: 22.30426}
+        - {x: -24.948135, y: -39.69574}
+        - {x: -6.9481354, y: -85.69574}
+        - {x: 32.051865, y: -122.69574}
+        - {x: 59.051865, y: -122.69574}
+        - {x: 68.051865, y: -119.69574}
+        - {x: 68.051865, y: -53.69574}
+        - {x: 25.051865, y: 29.30426}
+    - name: Beckard_left_bicep
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 628
+        width: 101
+        height: 144
+      alignment: 9
+      pivot: {x: 0.14435841, y: 0.86169267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.4198, y: 19.91626}
+        - {x: -7.5802, y: 17.91626}
+        - {x: -14.5802, y: 15.91626}
+        - {x: -14.5802, y: -43.08374}
+        - {x: -10.5802, y: -65.08374}
+        - {x: 35.4198, y: -106.08374}
+        - {x: 57.4198, y: -124.08374}
+        - {x: 86.4198, y: -124.08374}
+        - {x: 86.4198, y: -62.08374}
+        - {x: 35.4198, y: 19.91626}
+    - name: Beckard_left_fore
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 463
+        width: 80
+        height: 110
+      alignment: 9
+      pivot: {x: 0.70204926, y: 0.82654417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.83606, y: 19.08014}
+        - {x: -22.16394, y: 19.08014}
+        - {x: -55.16394, y: -51.91986}
+        - {x: -56.16394, y: -57.91986}
+        - {x: -56.16394, y: -87.91986}
+        - {x: -50.16394, y: -90.91986}
+        - {x: -22.16394, y: -90.91986}
+        - {x: 19.83606, y: -34.91986}
+        - {x: 23.83606, y: -12.919861}
+        - {x: 23.83606, y: 16.08014}
+    - name: Beckard_hips
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 391
+        width: 119
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 32}
+        - {x: -59.5, y: 32}
+        - {x: -59.5, y: -31}
+        - {x: -58.5, y: -32}
+        - {x: 59.5, y: -32}
+    - name: Beckard_left_hand
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 354
+        width: 51
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5493966, y: 0.9122392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.019226, y: 4.8268433}
+        - {x: -28.019226, y: -0.17315674}
+        - {x: -28.019226, y: -41.173157}
+        - {x: -24.019226, y: -50.173157}
+        - {x: 13.980774, y: -50.173157}
+        - {x: 22.980774, y: -42.173157}
+        - {x: 22.980774, y: 0.82684326}
+        - {x: 9.980774, y: 4.8268433}
+    - name: Beckard_right_thigh
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 192
+        width: 30
+        height: 197
+      alignment: 9
+      pivot: {x: 0.50523454, y: 0.96004426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Beckard_right_shin
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 46
+        width: 30
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4426061, y: 0.95032054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Beckard_left_thigh
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 205
+        width: 30
+        height: 185
+      alignment: 9
+      pivot: {x: 0.4999995, y: 0.94674087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Beckard_left_shin
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 53
+        width: 30
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4426061, y: 0.8826255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Beckard_right_hand
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 242
+        width: 51
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4948503, y: 0.95016325}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline:
+      - - {x: 12.762634, y: 2.8905334}
+        - {x: -16.237366, y: 2.8905334}
+        - {x: -25.237366, y: -20.109467}
+        - {x: -25.237366, y: -39.109467}
+        - {x: -14.237366, y: -48.109467}
+        - {x: -6.2373657, y: -52.109467}
+        - {x: 15.762634, y: -52.109467}
+        - {x: 25.762634, y: -41.109467}
+        - {x: 25.762634, y: -16.109467}
+        - {x: 18.762634, y: -0.10946655}
+    - name: Beckard_right_foot
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 11
+        width: 47
+        height: 29
+      alignment: 9
+      pivot: {x: 0.17029174, y: 0.5000033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Beckard_left_foot
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 59
+        height: 29
+      alignment: 9
+      pivot: {x: 0.17898482, y: 0.44062957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
