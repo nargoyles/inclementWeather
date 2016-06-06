@@ -182,8 +182,8 @@ MonoBehaviour:
   RainWidthMultiplier: 1.5
   CollisionMask:
     serializedVersion: 2
-    m_Bits: 4294967295
-  CollisionLifeTimeRain: 0.02
+    m_Bits: 1
+  CollisionLifeTimeRain: 0.001
   RainMistCollisionMultiplier: 0.75
 --- !u!182 &18238810
 WindZone:

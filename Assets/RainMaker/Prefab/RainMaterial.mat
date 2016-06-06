@@ -188,6 +188,18 @@ Material:
         second: 0
       data:
         first:
+          name: _PointSpotLightMultiplier
+        second: 0.5
+      data:
+        first:
+          name: _DirectionalLightMultiplier
+        second: 1
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -225,18 +237,6 @@ Material:
       data:
         first:
           name: _EmissionScaleUI
-        second: 1
-      data:
-        first:
-          name: _InvFade
-        second: 1
-      data:
-        first:
-          name: _PointSpotLightMultiplier
-        second: 0.5
-      data:
-        first:
-          name: _DirectionalLightMultiplier
         second: 1
       data:
         first:
@@ -289,12 +289,12 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 0.27450982}
       data:
         first:
-          name: _EmissionColorUI
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _TintColor
         second: {r: 1, g: 1, b: 1, a: 0.78431374}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _EmissiveColor
