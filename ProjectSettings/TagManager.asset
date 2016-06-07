@@ -51,11 +51,11 @@ TagManager:
   - name: Character
     uniqueID: 2123880517
     locked: 1
-  - name: Controls
-    uniqueID: 4181620097
-    locked: 0
   - name: Bones
     uniqueID: 296170299
+    locked: 0
+  - name: Controls
+    uniqueID: 4181620097
     locked: 0
   - name: Default
     uniqueID: 0
