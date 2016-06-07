@@ -6,7 +6,6 @@ public class UmbrellaScript : MonoBehaviour {
 
 	void Update() {
 		if (Input.GetKey(KeyCode.LeftArrow)) {
-			Debug.Log ("Left");
 			transform.position += Vector3.left * speed * Time.deltaTime;
 		}
 		if (Input.GetKey(KeyCode.RightArrow)) {
