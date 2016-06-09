@@ -50,7 +50,7 @@ TagManager:
   m_SortingLayers:
   - name: Character
     uniqueID: 2123880517
-    locked: 1
+    locked: 0
   - name: Bones
     uniqueID: 296170299
     locked: 0

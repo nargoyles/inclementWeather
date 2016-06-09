@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bfbe9c8a673384170b766b70fd12b0cc
-timeCreated: 1465283089
+timeCreated: 1465452764
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -50,6 +50,15 @@ TextureImporter:
     21300086: Beckard_Right_Leg
     21300088: Beckard_Left_Leg
     21300090: Beckard_Left_Arm
+    21300092: Beckard_head
+    21300094: Beckard_armR
+    21300096: Beckard_handR
+    21300098: Beckard_armL
+    21300100: Beckard_legR
+    21300102: Beckard_legL
+    21300104: Beckard_footR
+    21300106: Beckard_footL
+    21300108: Beckard_handL
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -96,7 +105,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Beckard_Head
+    - name: Beckard_head
       rect:
         serializedVersion: 2
         x: 27
@@ -117,7 +126,7 @@ TextureImporter:
         - {x: 28, y: -102.5}
         - {x: 47, y: -83.5}
         - {x: 74, y: 49.5}
-    - name: Beckard_Right_Shoulder
+    - name: Beckard_armR
       rect:
         serializedVersion: 2
         x: 196
@@ -135,37 +144,36 @@ TextureImporter:
         - {x: 12, y: -72}
         - {x: 57, y: -16}
         - {x: 57, y: 78}
-    - name: Beckard_Torso
+    - name: Beckard_torso
       rect:
         serializedVersion: 2
         x: 19
-        y: 484
+        y: 526
         width: 135
-        height: 389
+        height: 347
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 62.5, y: -127.5}
-        - {x: 61.5, y: 40.5}
-        - {x: 67.5, y: 40.5}
-        - {x: 67.5, y: 153.5}
-        - {x: 45.5, y: 194.5}
-        - {x: -32.5, y: 194.5}
-        - {x: -67.5, y: 146.5}
-        - {x: -67.5, y: 46.5}
-        - {x: -63.5, y: 35.5}
-        - {x: -63.5, y: -186.5}
-        - {x: -51.5, y: -193.5}
-        - {x: -29.5, y: -194.5}
-        - {x: 63.5, y: -194.5}
-        - {x: 67.5, y: -191.5}
-        - {x: 67.5, y: -128.5}
-    - name: Beckard_Right_Arm
+      - - {x: 61.5, y: -113.5}
+        - {x: 67.5, y: 4.5}
+        - {x: 67.5, y: 132.5}
+        - {x: 45.5, y: 173.5}
+        - {x: -32.5, y: 173.5}
+        - {x: -67.5, y: 125.5}
+        - {x: -67.5, y: 32.5}
+        - {x: -64.5, y: 15.5}
+        - {x: -61.5, y: 16.5}
+        - {x: -66.5, y: -168.5}
+        - {x: -44.5, y: -173.5}
+        - {x: 62.5, y: -173.5}
+        - {x: 67.5, y: -168.5}
+        - {x: 67.5, y: -124.5}
+    - name: Beckard_handR
       rect:
         serializedVersion: 2
-        x: 187
-        y: 679
+        x: 185
+        y: 721
         width: 123
         height: 181
       alignment: 0
@@ -179,7 +187,7 @@ TextureImporter:
         - {x: 7.5, y: 90.5}
         - {x: -55.5, y: 90.5}
         - {x: -61.5, y: 88.5}
-    - name: Beckard_Left_Shoulder
+    - name: Beckard_armL
       rect:
         serializedVersion: 2
         x: 176
@@ -200,58 +208,107 @@ TextureImporter:
         - {x: 50.5, y: -72}
         - {x: 50.5, y: -10}
         - {x: -0.5, y: 72}
-    - name: Beckard_Right_Leg
+    - name: Beckard_legR
       rect:
         serializedVersion: 2
-        x: 10
-        y: 83
-        width: 57
-        height: 306
+        x: 18
+        y: 295
+        width: 71
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28.5, y: 153}
-        - {x: -28.5, y: 48}
-        - {x: -20.5, y: -153}
-        - {x: 28.5, y: -153}
-        - {x: 28.5, y: 153}
-    - name: Beckard_Left_Leg
+      - - {x: -30.5, y: 96}
+        - {x: -35.5, y: 93}
+        - {x: -35.5, y: -14}
+        - {x: -26.5, y: -53}
+        - {x: -3.5, y: -96}
+        - {x: 35.5, y: -96}
+        - {x: 35.5, y: 89}
+        - {x: 26.5, y: 96}
+    - name: Beckard_legL
       rect:
         serializedVersion: 2
-        x: 94
-        y: 91
-        width: 93
-        height: 290
+        x: 141
+        y: 338
+        width: 173
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -46.5, y: 145}
-        - {x: -46.5, y: 98}
-        - {x: -15.5, y: -145}
-        - {x: 46.5, y: -145}
-        - {x: 46.5, y: -12}
-        - {x: 28.5, y: 145}
-    - name: Beckard_Left_Arm
+      - - {x: -23.5, y: 72}
+        - {x: -86.5, y: 72}
+        - {x: -86.5, y: 21}
+        - {x: -4.5, y: -68}
+        - {x: 10.5, y: -72}
+        - {x: 61.5, y: -72}
+        - {x: 61.5, y: -55}
+        - {x: 57.5, y: -46}
+      - - {x: 83.5, y: -40}
+        - {x: 85.5, y: -42}
+        - {x: 86.5, y: -42}
+        - {x: 86.5, y: -37}
+        - {x: 84.5, y: -37}
+    - name: Beckard_footR
       rect:
         serializedVersion: 2
-        x: 172
-        y: 370
-        width: 142
-        height: 125
+        x: 75
+        y: 105
+        width: 75
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28, y: 62.5}
-        - {x: -71, y: 11.5}
-        - {x: -71, y: -27.5}
-        - {x: -65, y: -35.5}
-        - {x: -30, y: -35.5}
-        - {x: 69, y: 15.5}
-        - {x: 69, y: 56.5}
-        - {x: 65, y: 62.5}
+      - - {x: 6.5, y: 84}
+        - {x: -27.5, y: 84}
+        - {x: -35.5, y: 74}
+        - {x: -35.5, y: 0}
+        - {x: -29.5, y: -84}
+        - {x: 30.5, y: -84}
+        - {x: 37.5, y: -75}
+        - {x: 37.5, y: -8}
+        - {x: 18.5, y: 81}
+    - name: Beckard_footL
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 157
+        width: 111
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 84}
+        - {x: 15.5, y: 84}
+        - {x: -55.5, y: -40}
+        - {x: -55.5, y: -60}
+        - {x: -20.5, y: -84}
+        - {x: -3.5, y: -84}
+        - {x: 2.5, y: -77}
+        - {x: 0.5, y: -65}
+        - {x: 55.5, y: 52}
+    - name: Beckard_handL
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 14
+        width: 138
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 48}
+        - {x: -69, y: 1}
+        - {x: -69, y: -48}
+        - {x: -27, y: -48}
+        - {x: 69, y: 3}
+        - {x: 69, y: 45}
+        - {x: 67, y: 48}
     outline: []
   spritePackingTag: 
   userData: 
