@@ -151,19 +151,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -0.55, y: 0.26, z: -0}
-        inSlope: {x: 0.585, y: 0.27, z: 0}
-        outSlope: {x: 0.585, y: 0.27, z: 0}
+        value: {x: -1.39, y: 0.36, z: -0}
+        inSlope: {x: 0.51000005, y: 0.014999986, z: 0}
+        outSlope: {x: 0.51000005, y: 0.014999986, z: 0}
         tangentMode: 0
       - time: 0.6666667
-        value: {x: -0.16, y: 0.44, z: -0}
+        value: {x: -1.05, y: 0.37, z: -0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - time: 1.3333334
-        value: {x: -0.55, y: 0.26, z: -0}
-        inSlope: {x: -0.585, y: -0.27, z: 0}
-        outSlope: {x: -0.585, y: -0.27, z: 0}
+        value: {x: -1.39, y: 0.36, z: -0}
+        inSlope: {x: -0.51000005, y: -0.014999986, z: 0}
+        outSlope: {x: -0.51000005, y: -0.014999986, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -257,56 +257,14 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -0.000011867812, y: 0.00015806788, z: 0}
-        inSlope: {x: 0.0000059484037, y: 0, z: 0}
-        outSlope: {x: 0.0000059484037, y: 0, z: 0}
-        tangentMode: 0
-      - time: 0.33333334
-        value: {x: -0.0000098850105, y: 0.00015806788, z: 0}
-        inSlope: {x: 0, y: -0.000062717416, z: 0}
-        outSlope: {x: 0, y: -0.000062717416, z: 0}
-        tangentMode: 0
-      - time: 0.6666667
-        value: {x: -0.000011867812, y: 0.00011625627, z: 0}
-        inSlope: {x: 0.00000086958335, y: -0.000028936029, z: 0}
-        outSlope: {x: 0.00000086958335, y: -0.000028936029, z: 0}
-        tangentMode: 0
-      - time: 1
-        value: {x: -0.000009305289, y: 0.00013877719, z: 0}
-        inSlope: {x: 9.094947e-13, y: 7.275958e-12, z: 0}
-        outSlope: {x: 9.094947e-13, y: 7.275958e-12, z: 0}
-        tangentMode: 0
-      - time: 1.3333334
-        value: {x: -0.000011867812, y: 0.00011625627, z: 0}
-        inSlope: {x: -0.0000076875685, y: -0.00006756276, z: 0}
-        outSlope: {x: -0.0000076875685, y: -0.00006756276, z: 0}
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Hips_CTRL_GRP/Hips_CTRL/Spine_CTRL_GRP/Spine_CTRL/Head_CTRL_GRP/Head_CTRL
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: {x: 0.018654874, y: 0.62664557, z: -0.24}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-      - time: 0.71666664
-        value: {x: 0.018654874, y: 0.62664557, z: -0.24000001}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-      - time: 1.3333334
-        value: {x: 0.018654874, y: 0.62664557, z: -0.24}
+        value: {x: 0.92, y: 2.65, z: 0.05}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL
+    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL/Umbrella-ella
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -348,18 +306,12 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - path: 3554270759
-      attribute: 1
-      script: {fileID: 0}
-      classID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - path: 3554270759
       attribute: 4
       script: {fileID: 0}
       classID: 4
       customType: 14
       isPPtrCurve: 0
-    - path: 3048373857
+    - path: 1816726836
       attribute: 1
       script: {fileID: 0}
       classID: 4
@@ -632,19 +584,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -0.55
-        inSlope: 0.585
-        outSlope: 0.585
+        value: -1.39
+        inSlope: 0.51000005
+        outSlope: 0.51000005
         tangentMode: 10
       - time: 0.6666667
-        value: -0.16
+        value: -1.05
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       - time: 1.3333334
-        value: -0.55
-        inSlope: -0.585
-        outSlope: -0.585
+        value: -1.39
+        inSlope: -0.51000005
+        outSlope: -0.51000005
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -657,19 +609,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 0.26
-        inSlope: 0.27
-        outSlope: 0.27
+        value: 0.36
+        inSlope: 0.014999986
+        outSlope: 0.014999986
         tangentMode: 10
       - time: 0.6666667
-        value: 0.44
+        value: 0.37
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       - time: 1.3333334
-        value: 0.26
-        inSlope: -0.27
-        outSlope: -0.27
+        value: 0.36
+        inSlope: -0.014999986
+        outSlope: -0.014999986
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -1102,82 +1054,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -0.000011867812
-        inSlope: 0.0000059484037
-        outSlope: 0.0000059484037
-        tangentMode: 10
-      - time: 0.33333334
-        value: -0.0000098850105
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 0.6666667
-        value: -0.000011867812
-        inSlope: 0.00000086958335
-        outSlope: 0.00000086958335
-        tangentMode: 10
-      - time: 1
-        value: -0.000009305289
-        inSlope: 9.094947e-13
-        outSlope: 9.094947e-13
-        tangentMode: 10
-      - time: 1.3333334
-        value: -0.000011867812
-        inSlope: -0.0000076875685
-        outSlope: -0.0000076875685
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: Hips_CTRL_GRP/Hips_CTRL/Spine_CTRL_GRP/Spine_CTRL/Head_CTRL_GRP/Head_CTRL
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 0.00015806788
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 0.33333334
-        value: 0.00015806788
-        inSlope: -0.000062717416
-        outSlope: -0.000062717416
-        tangentMode: 10
-      - time: 0.6666667
-        value: 0.00011625627
-        inSlope: -0.000028936029
-        outSlope: -0.000028936029
-        tangentMode: 10
-      - time: 1
-        value: 0.00013877719
-        inSlope: 7.275958e-12
-        outSlope: 7.275958e-12
-        tangentMode: 10
-      - time: 1.3333334
-        value: 0.00011625627
-        inSlope: -0.00006756276
-        outSlope: -0.00006756276
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Hips_CTRL_GRP/Hips_CTRL/Spine_CTRL_GRP/Spine_CTRL/Head_CTRL_GRP/Head_CTRL
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 0.018654874
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 0.71666664
-        value: 0.018654874
+        value: 0.92
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -1185,19 +1062,14 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL
+    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL/Umbrella-ella
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 0.62664557
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 0.71666664
-        value: 0.62664557
+        value: 2.65
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -1205,19 +1077,14 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL
+    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL/Umbrella-ella
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -0.24
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 1.3333334
-        value: -0.24
+        value: 0.05
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -1225,7 +1092,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL
+    path: Hips/Spine/Neck/Left Shoulder/Left Elbow/Beckard_handL/Umbrella-ella
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
