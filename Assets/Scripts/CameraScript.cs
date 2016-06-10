@@ -5,10 +5,7 @@ public class CameraScript : MonoBehaviour {
 
 	public Transform character;
 
-	void Update ()
-	{
-
+	void Update () {
 		transform.position = new Vector3 (character.position.x + 6, 0, -10);
-	
 	}
 }
