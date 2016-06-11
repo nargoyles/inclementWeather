@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace DigitalRuby.RainMaker
 {
@@ -36,6 +37,9 @@ namespace DigitalRuby.RainMaker
         [Tooltip("Multiply the velocity of any mist colliding by this amount")]
         [Range(0.0f, 0.99f)]
         public float RainMistCollisionMultiplier = 0.75f;
+
+		public Text rainText;
+		private int rainCount;
 
         private void EmitExplosion(ref Vector3 pos)
         {
@@ -86,7 +90,12 @@ namespace DigitalRuby.RainMaker
                     hit = Physics2D.Raycast(pos, particles[i].velocity.normalized, particles[i].velocity.magnitude * Time.deltaTime);
                     if (hit.collider != null && ((hit.collider.gameObject.layer << 1) & CollisionMask) == (hit.collider.gameObject.layer << 1))
                     {
-                        if (CollisionLifeTimeRain == 0.0f)
+						if (hit.collider.gameObject.tag == "Player") {
+							rainCount++;
+							rainText.text = "Beckard hit " + rainCount + " times.";
+						}
+
+						if (CollisionLifeTimeRain == 0.0f)
                         {
                             particles[i].lifetime = 0.0f;
                         }
