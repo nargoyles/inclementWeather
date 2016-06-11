@@ -185,6 +185,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   CollisionLifeTimeRain: 0.02
   RainMistCollisionMultiplier: 0.75
+  rainText: {fileID: 0}
 --- !u!182 &18238810
 WindZone:
   m_ObjectHideFlags: 1
