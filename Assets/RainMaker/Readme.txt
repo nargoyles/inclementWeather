@@ -2,7 +2,7 @@
 http://www.digitalruby.com
 Created by Jeff Johnson
 
-Version 1.0.3
+Version 2.0.3
 
 --------------------
 Change Log:
@@ -11,6 +11,7 @@ Change Log:
 2.0		-	Added 2D mode
 2.0.1	-	Remove deprecated methods
 2.0.2	-	A few small bug fixes
+2.0.3	-	Fix 2D collision
 --------------------
 
 **** NOTE *****
