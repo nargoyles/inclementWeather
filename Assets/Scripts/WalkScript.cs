@@ -21,7 +21,7 @@ public class WalkScript : MonoBehaviour {
 	void Update () {
 
 		//auto-walking
-		transform.Translate(Vector3.right * speed * Time.deltaTime);
+		transform.Translate(new Vector3((speed * Time.deltaTime), 0, 0));
 		anim.SetFloat ("speed", 1);
 
 		//jumping
