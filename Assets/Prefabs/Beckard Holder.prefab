@@ -2854,6 +2854,7 @@ MonoBehaviour:
   grounded: 0
   distance: 1
   beckardHolder: {fileID: 50000011290380328}
+  beckardHolderTrans: {fileID: 4000011505687136}
   groundCheck: {fileID: 4000014145320822}
   velocity: {x: 0, y: 0}
 --- !u!114 &114000012797570120
