@@ -10,6 +10,7 @@ public class WalkScript : MonoBehaviour {
 	public float distance = 1f;
 	public Rigidbody2D beckard;
 	public LayerMask ground;
+	Puppet2D_GlobalControl gc;
 
 	// Update is called once per frame
 	void FixedUpdate(){
@@ -21,7 +22,7 @@ public class WalkScript : MonoBehaviour {
 	void Update () {
 
 		//auto-walking
-		transform.Translate(new Vector3((speed * Time.deltaTime), 0, 0));
+		gc.transform.Translate(new Vector3((speed * Time.deltaTime), 0, 0));
 		anim.SetFloat ("speed", 1);
 
 		//jumping
@@ -33,8 +34,6 @@ public class WalkScript : MonoBehaviour {
 
 	void GroundCheck()
 	{
-		RaycastHit hit;
-		Vector3 dir = new Vector3(0, -1);
 
 		if(beckard.IsTouchingLayers(ground))
 		{
