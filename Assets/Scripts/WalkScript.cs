@@ -8,41 +8,34 @@ public class WalkScript : MonoBehaviour {
 	public Vector2 jumpForce = new Vector2(0, 10);
 	bool jumping = false;
 	public float distance = 1f;
-	public Rigidbody2D beckard;
+	public Rigidbody2D beckardHolder;
 	public LayerMask ground;
 	public Vector2 velocity;
 
-	// Update is called once per frame
-	void FixedUpdate(){
-		
-		//GroundCheck();
-		if(Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0)){
-			Debug.Log(beckard.velocity);
-			anim.CrossFade ("jump", 0f);
-			//beckard.AddForce(new Vector2(0, 100));
-			//transform.Translate(Vector3.up * 260 * Time.deltaTime, Space.World);
-			GetComponent<Rigidbody2D>().AddForce(jumpForce, ForceMode2D.Impulse);
+	void FixedUpdate(){		
+		GroundCheck();
+		if(Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0) && !jumping){
+			Debug.Log(beckardHolder.velocity);
+			anim.CrossFade ("jump", 1f);
+			beckardHolder.AddForce(jumpForce, ForceMode2D.Impulse);
 		}
 	}
 
 	void Update () {
-		//auto-walking
 		transform.Translate(speed * Time.deltaTime, 0, 0);
 		anim.SetFloat("speed", 1);
 	}
 
-	void GroundCheck()
-	{
-
-		if(beckard.IsTouchingLayers(ground))
+	void GroundCheck() {
+		if(beckardHolder.IsTouchingLayers(ground))
 		{
 			jumping = false;
-			anim.SetBool ("jump", false);
+			Debug.Log ("Not touching");
 		}
 		else
 		{
 			jumping = true;
-			anim.SetBool ("jump", true);
+			Debug.Log ("Touching");
 		}
 	}
 }
