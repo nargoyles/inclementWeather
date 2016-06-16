@@ -179,7 +179,7 @@ MonoBehaviour:
   WindChangeInterval: {x: 5, y: 30}
   EnableWind: 1
   RainHeightMultiplier: 0.15
-  RainWidthMultiplier: 1.5
+  RainWidthMultiplier: 3
   CollisionMask:
     serializedVersion: 2
     m_Bits: 4294967295
